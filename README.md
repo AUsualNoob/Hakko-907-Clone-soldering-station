@@ -20,6 +20,7 @@ Took me a long while, Research and part searching is hard man.
 ### Tracing
 
 <img width="681" height="550" alt="image" src="https://github.com/user-attachments/assets/ac25b324-75d4-4819-83f2-7b77c31b50a6" />
+
 I had to make it 4 layer for my sake, I wouldn't be able to make it 2 layer.
 
 ## Firmware
@@ -49,6 +50,7 @@ which is then constrained to then be an integer pwm value
 
 ## CAD
 <img width="504" height="390" alt="image" src="https://github.com/user-attachments/assets/163ff10d-e818-4b90-a387-73bb7ed6d63e" />
+
 Fusion is hard man.
 
 # BOM
