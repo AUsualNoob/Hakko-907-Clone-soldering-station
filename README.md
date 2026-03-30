@@ -1,4 +1,5 @@
-<img width="681" height="550" alt="image" src="https://github.com/user-attachments/assets/f6286f3b-8d2a-4b29-ad59-001733849733" /># Hakko 907 soldering station
+<img width="504" height="390" alt="image" src="https://github.com/user-attachments/assets/163ff10d-e818-4b90-a387-73bb7ed6d63e" />
+# Hakko 907 soldering station
 
 ## Features
 
@@ -10,9 +11,13 @@
 ## PCB
 
 ### Schematic
+
 <img width="363" height="467" alt="image" src="https://github.com/user-attachments/assets/abeda465-e69d-4d6b-9c29-141b1890cead" />
+
 Took me a long while, Research and part searching is hard man.
+
 ### Tracing
+
 <img width="681" height="550" alt="image" src="https://github.com/user-attachments/assets/ac25b324-75d4-4819-83f2-7b77c31b50a6" />
 I had to make it 4 layer for my sake, I wouldn't be able to make it 2 layer.
 
