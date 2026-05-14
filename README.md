@@ -127,4 +127,5 @@ Fusion is hard man.
 
 
 **Total: ~$53.1**
+
 **Shipping and Tax: 30$**
