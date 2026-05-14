@@ -97,27 +97,28 @@ Fusion is hard man.
 
 ## BOM
 
-| Qty | Part |
-|-----|------|
-| 1x | Arduino Nano |
-| 1x | 1000µF 50V capacitor |
-| 1x | 100µF 50V capacitor |
-| 2x | 5mm LEDs |
-| 1x | 1N5822 diode |
-| 1x | 1N5240B zener diode |
-| 1x | 1.3" 128x64 I2C OLED display |
-| 1x | Polyfuse |
-| 1x | GX16-5 connector |
-| 1x | DC barrel jack |
-| 1x | Inductor (for LM2576) |
-| 1x | IRF4905 MOSFET |
-| 1x | IRLZ44N MOSFET |
-| 1x | 100k resistor |
-| 1x | 10k resistor |
-| 1x | 470Ω resistor |
-| 1x | 3.3k resistor |
-| 1x | 2.7k resistor |
-| 2x | 2.2k resistors |
-| 1x | Rotary encoder |
-| 1x | LM2576HVS-5 buck converter IC |
-| 1x | LM358 op-amp |
+| Qty | Part | Purpose | Cost (USD) | Distributor |
+|-----|------|---------|------------|-------------|
+| 1x | [Arduino Nano v3.x](https://www.ram-e-shop.com/shop/kit-arduino-nano-ch340-arduino-nano-328-with-ch340-chip-clone-8338) | Brain of the device | $5.00 | Ram Electronics |
+| 1x | [1000µF 50V capacitor](https://www.ram-e-shop.com/shop/c-1000u50v-capacitor-1000uf-50v-6104) | Passive component | $0.10 | Ram Electronics |
+| 1x | [100µF 50V capacitor](https://www.ram-e-shop.com/shop/c-100u50v-capacitor-100uf-50v-6073) | Passive component | $0.03 | Ram Electronics |
+| 1x | [1N5822](https://www.amazon.eg/-/en/5pcs-1N5822-5822-1N582-Diode/dp/B0DWY2S9S8) | Passive component | $3.00 | Amazon |
+| 1x | [1.3" 128x64 I2C OLED display](https://www.ram-e-shop.com/shop/oled-1-3-4pin-oled-1-3-4pin-lcd-display-module-i2c-iic-communicate-7794) | Displaying temperature | $1.75 | Ram Electronics |
+| 1x | [1N5240B zener diode](https://www.amazon.eg/-/en/gp/product/B0CWPCPZN2) | Zener diode | $1.50 | Amazon |
+| 1x | [RUEF300 polyfuse](https://www.amazon.eg/-/en/gp/product/B0FNLD9RPG) | Protection passive component | $2.00 | Amazon |
+| 1x | [GX16-5 connector](https://www.ram-e-shop.com/shop/gx16-5pin-gx16-5-pole-metal-male-female-panel-chassis-connector-7025) | Connector for soldering iron | $1.00 | Ram Electronics |
+| 1x | [DC barrel jack](https://www.amazon.eg/-/en/gp/product/B0D4N6JF7F) | Input plug for power | $1.00 | Amazon |
+| 1x | [100µH inductor](https://www.amazon.eg/-/en/gp/product/B0FF9X6THF) | Noise reduction | $1.50 | Amazon |
+| 1x | [IRF4905 MOSFET](https://www.amazon.eg/-/en/IRF4905-P-Channel-HEXFET-MOSFET-74A/dp/B09H13NQD4) | P-channel MOSFET for reverse polarity protection | $2.00 | Amazon |
+| 1x | [IRLZ44N MOSFET](https://www.ram-e-shop.com/shop/irlz44-irlz44n-logic-level-gate-n-channel-mosfet-6633) | N-channel MOSFET for heater control | $1.00 | Ram Electronics |
+| 1x | [100k resistor](https://www.ram-e-shop.com/shop/carbon-resistance-1-4w-price-per-4-resistors-9506#attr=314) | Passive component | $0.40 | Ram Electronics |
+| 1x | [10k resistor](https://www.ram-e-shop.com/shop/carbon-resistance-1-4w-price-per-4-resistors-9506#attr=314) | Passive component | $0.02 | Ram Electronics |
+| 1x | [470Ω resistor](https://www.ram-e-shop.com/shop/carbon-resistance-1-4w-price-per-4-resistors-9506#attr=307) | Passive component | $0.02 | Ram Electronics |
+| 1x | [3.3k resistor](https://www.amazon.eg/-/en/Resistor-Through-Electronics-Circuit-Projects/dp/B0GYQ2GYK1) | Passive component | $1.50 | Amazon |
+| 1x | [2.7k resistor](https://www.ram-e-shop.com/shop/carbon-resistance-1-4w-price-per-4-resistors-9506#attr=307) | Passive component | $0.02 | Ram Electronics |
+| 2x | [2.2k resistor](https://www.amazon.eg/-/en/Resistor-Through-Electronics-Circuit-Projects/dp/B0GYQ2GYK1) | Passive component | $1.00 | Amazon |
+| 1x | [Rotary encoder](https://www.ram-e-shop.com/shop/pot-ec11-rotary-5pin-20mm-ec11-rotary-encoder-with-push-button-switch-5pin-20mm-silver-9624) | Controlling temperature | $0.50 | Ram Electronics |
+| 1x | [LM2576](https://www.amazon.eg/-/en/gp/product/B0FHHC669J) | Step down converter for the Arduino | $2.00 | Amazon |
+| 1x | [LM358 op-amp](https://www.ram-e-shop.com/shop/lm358-copy-lm358p-copy-6130) | OPAMP for amplifying | $0.10 | Ram Electronics |
+
+**Total: ~$26.44**
