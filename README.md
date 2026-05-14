@@ -126,6 +126,8 @@ Fusion is hard man.
 | 5x | PCB | Electrical connections and main body | 7$ | JLCPCB |
 
 
-**Total: ~$53.1**
+**Subtotal: ~$53.1**
 
 **Shipping and Tax: 30$**
+
+**Total: ~83.1$**
