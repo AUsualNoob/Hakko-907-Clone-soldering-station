@@ -99,6 +99,7 @@ Fusion is hard man.
 
 | Qty | Part | Purpose | Cost (USD) | Distributor |
 |-----|------|---------|------------|-------------|
+| 2x | [5mm LEDS](https://www.ram-e-shop.com/shop/led-gg-led-5mm-green-color-5940) | Knowing when it's on or off | 0.019$ | Ram Electronics |
 | 1x | [Arduino Nano v3.x](https://www.ram-e-shop.com/shop/kit-arduino-nano-ch340-arduino-nano-328-with-ch340-chip-clone-8338) | Brain of the device | $5.00 | Ram Electronics |
 | 1x | [1000µF 50V capacitor](https://www.ram-e-shop.com/shop/c-1000u50v-capacitor-1000uf-50v-6104) | Passive component | $0.10 | Ram Electronics |
 | 1x | [100µF 50V capacitor](https://www.ram-e-shop.com/shop/c-100u50v-capacitor-100uf-50v-6073) | Passive component | $0.03 | Ram Electronics |
