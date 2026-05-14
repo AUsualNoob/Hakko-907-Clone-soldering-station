@@ -1,4 +1,4 @@
-# Hakko 907 Soldering Station
+<img width="1699" height="931" alt="image" src="https://github.com/user-attachments/assets/82d45e42-f6d3-4d00-b8ff-2187e4a32dcf" /># Hakko 907 Soldering Station
 
 ![CAD render](https://github.com/user-attachments/assets/163ff10d-e818-4b90-a387-73bb7ed6d63e)
 
@@ -92,6 +92,14 @@ int pwm = constrain((int)pid, 0, 255);
 ![CAD render](https://github.com/user-attachments/assets/163ff10d-e818-4b90-a387-73bb7ed6d63e)
 
 Fusion is hard man.
+
+---
+
+## Finished Product
+
+<img width="1699" height="931" alt="image" src="https://github.com/user-attachments/assets/b44783df-4a06-4c3d-bc0d-b559bb12ee50" />
+
+<img width="1324" height="852" alt="image" src="https://github.com/user-attachments/assets/d3ea94b2-884b-4f66-b9e8-846b1e8f6a5b" />
 
 ---
 
