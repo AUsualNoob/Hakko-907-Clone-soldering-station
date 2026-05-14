@@ -121,5 +121,9 @@ Fusion is hard man.
 | 1x | [Rotary encoder](https://www.ram-e-shop.com/shop/pot-ec11-rotary-5pin-20mm-ec11-rotary-encoder-with-push-button-switch-5pin-20mm-silver-9624) | Controlling temperature | $0.50 | Ram Electronics |
 | 1x | [LM2576](https://www.amazon.eg/-/en/gp/product/B0FHHC669J) | Step down converter for the Arduino | $2.00 | Amazon |
 | 1x | [LM358 op-amp](https://www.ram-e-shop.com/shop/lm358-copy-lm358p-copy-6130) | OPAMP for amplifying | $0.10 | Ram Electronics |
+| 1x | [Soldering Iron Handle](https://www.amazon.eg/-/en/Home-Soldering-Desoldering-Solder-Station/dp/B0GCSY3SBH/ref=sr_1_7?crid=164RY93DEOGSH&dib=eyJ2IjoiMSJ9.oCii5B0EJOsOawhvu71j2wZhxK530PdLNBRV6zdfw3OTkg1bqy9Yza85gD998wNN5HrHseDyYSVGOqD3hhtNVk6EGwazw0Ifr6qm7G5Nc9aeKXNLEXccIUOAhkQdMeVWgLRELA1Q0lunMn9dBY4rNqdgxpqJ6kCvdFOx1OawHm3lGXM1f2BZOPYWBCD0mLDAcphNL7xB0_6o7BtSDkXERMccpYQZjLgv-jea5Jj_LPzZnS8gFeBS01P8wHm20pf7cbIObiJ8NbOkE0pC-3s5_JlGeBRfxMo3UMOcEvQLn_c.uLxslEId-HzDGxANhADrrzYBeEtk4ObHqa4aIK8KpVg&dib_tag=se&keywords=soldering+iron+handle&qid=1778771214&sprefix=soldering+iron+handl%2Caps%2C188&sr=8-7) | The handle for the device | 8.20$ | Amazon |
+| 1x | [DC Power Adaptor](https://www.amazon.eg/-/en/gp/product/B0FXBHBNHM/ref=ewc_pr_img_7?smid=A2DMKAT7ZKLGQN&psc=1) | Powering the device | 12.41$ | Amazon |
+| 5x | PCB | Electrical connections and main body | 7$ | JLCPCB |
+
 
 **Total: ~$26.44**
