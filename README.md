@@ -25,28 +25,63 @@ I had to make it 4 layer for my sake, I wouldn't be able to make it 2 layer.
 
 ## Firmware
 
-There are 2 versions of the firmware, There's a BB version (Bang-Bang)
-which works by having the transistor at either max PWM value or 0 PWM value for increasing and decreasing temperature
-And the PID version (Proportial-Integral-Derivative)
-Which adjusts the PWM value depending on how far the current temperature is, This explanation was pasted from my journal in hackclub blueprint
-so basically, it all starts with an error value
-the error value is calculated by subtracting the wanted temperature by the current temperature
-(Error = wantedTemp - currentTemp)
-then, that Error value is multiplied by a kp value, the kp value is tweaked to ensure it works properly, it has a default of 2
-the product of the Error value and the kp value is going to be a part of the PWM value
-(PWM = kp * Error)
-then there's the integral value, the integral value has a default of 0, it's calculated like this
-(integral = integral + error)
-usually if the Error value gets smaller, the less power goes into the iron, so it usually stays at 10 - 20 degrees celsius less than the wanted value, this is where the integral comes in, it keeps getting added so you can reach the temperature
-then it's multiplied by ki, which is also something that should be tweaked, it has a default of 0.5
-however the integral value and the error value together usally overshoots, and thats where the derivative comes in
-derivative is calculated like this
-(derivative = error - lastError)
-its then multiplied by kd, which has a default value of 0.1 and should also be tweaked.
-in the end, it's all put into one float variable, called pid, which is this
-(pid = (kp * Error) + (ki * integral) + (kd * derivative))
-which is then constrained to then be an integer pwm value
-(int pwm = constrain((int)pid, 0, 255))
+# Firmware Versions
+
+## Bang-Bang (BB) firmware
+
+Works by having the transistor at either max PWM value or 0 PWM value for increasing and decreasing temperature.
+
+---
+
+## PID firmware (Proportional-Integral-Derivative)
+
+Adjusts the PWM value depending on how far the current temperature is from the wanted temperature.
+
+It all starts with an error value.
+
+### Error
+
+The error value is calculated by subtracting the wanted temperature by the current temperature.
+
+```
+Error = wantedTemp - currentTemp
+```
+
+### Proportional
+
+That error value is multiplied by a `kP` value. The `kP` value is tweaked to ensure it works properly, it has a default of `2`. The product of the error value and the `kP` value is going to be a part of the PWM value.
+
+```
+PWM = kP * Error
+```
+
+### Integral
+
+The integral value has a default of `0`. Usually if the error value gets smaller, the less power goes into the iron, so it usually stays at 10–20 degrees celsius less than the wanted value. This is where the integral comes in — it keeps getting added so you can reach the temperature. It's then multiplied by `kI`, which is also something that should be tweaked, it has a default of `0.5`.
+
+```
+integral = integral + error
+```
+
+### Derivative
+
+However the integral value and the error value together usually overshoots, and that's where the derivative comes in. It's then multiplied by `kD`, which has a default value of `0.1` and should also be tweaked.
+
+```
+derivative = error - lastError
+```
+
+### Final output
+
+In the end, it's all put into one float variable, called `pid`, which is then constrained to then be an integer pwm value.
+
+```
+pid = (kP * Error) + (kI * integral) + (kD * derivative)
+```
+
+```cpp
+int pwm = constrain((int)pid, 0, 255);
+```
 
 ## CAD
 <img width="504" height="390" alt="image" src="https://github.com/user-attachments/assets/163ff10d-e818-4b90-a387-73bb7ed6d63e" />
