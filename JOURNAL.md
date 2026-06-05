@@ -119,7 +119,17 @@ I finished quite a big part of the case. All I need left is to make the top part
 ## 2/27/2026 — Just finished routing the PCB
 *Time spent: 3.5h*
 
-Turns out it had to be a 4-layer PCB. At least I have a ground plane now. I haven't actually done a PCB without a guide before but I did so much damn research on this one. I tried very hard so it can actually work.
+Turns out it had to be a 4-layer PCB. 
+
+For the schematic, I had to use a step down buck converter (the LM2576) so the arduino nano can function properly (and not explode)
+
+For power, I used a barrel jack as an input and a polyfuse and transistor for safety (overcurrent, reverse polarity protection)
+
+A rotary encoder was used for temperatue control, the nano translates it and asks for that specific temperature, forcing the transistor that controls power going into the iron to change how much goes through.
+
+the temperature sensor is connected to an op-amp so reading can be easier.
+
+there's an oled for knowing the temperature.
 
 ![](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEyNDYxLCJwdXIiOiJibG9iX2lkIn19--efb67beb46258581d246d4941259d61f1ddec282/image.png)
 ![](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEyNDY4LCJwdXIiOiJibG9iX2lkIn19--df6a16625f9640801f5397a505bcc37f6fc12dd1/image.png)
