@@ -97,6 +97,8 @@ Fusion is hard man.
 
 ## Finished Product
 
+### Outside
+
 <img width="1699" height="931" alt="image" src="https://github.com/user-attachments/assets/b44783df-4a06-4c3d-bc0d-b559bb12ee50" />
 
 <img width="1324" height="852" alt="image" src="https://github.com/user-attachments/assets/d3ea94b2-884b-4f66-b9e8-846b1e8f6a5b" />
@@ -104,6 +106,17 @@ Fusion is hard man.
 <img width="1449" height="819" alt="image" src="https://github.com/user-attachments/assets/985e671e-db0a-4637-bce9-f0976217c735" />
 
 <img width="809" height="233" alt="image" src="https://github.com/user-attachments/assets/dcebe23e-f05d-4910-b076-d771b0b2ec63" />
+
+### Inside
+
+<img width="1575" height="962" alt="image" src="https://github.com/user-attachments/assets/bc2dc305-9186-48dd-bab0-550a93441ee2" />
+
+<img width="1680" height="969" alt="image" src="https://github.com/user-attachments/assets/fc20ff94-3e71-43a4-ab37-b4a93f6fd97e" />
+
+<img width="1204" height="990" alt="image" src="https://github.com/user-attachments/assets/62e0051a-b68b-4ae5-b3bf-2c085255454d" />
+
+<img width="1360" height="1038" alt="image" src="https://github.com/user-attachments/assets/cca114ad-13b6-4afd-a33b-e5a3d5e83454" />
+
 
 ---
 
